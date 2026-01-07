@@ -10,4 +10,7 @@ public class SimpleController{
     public String checkBackend() {
         return "Main Page";
     }
+
+    @GetMapping("/pavan")
+    public String pavanMethod(){return "pavan did this";}
 }
