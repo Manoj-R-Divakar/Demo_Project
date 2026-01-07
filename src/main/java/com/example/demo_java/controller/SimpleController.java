@@ -12,5 +12,5 @@ public class SimpleController{
     }
 
     @GetMapping("/pavan")
-    public String pavanMethod(){return "pavan did this";}
+    public String pavanMethod(){return "pavan did not do this";}
 }
